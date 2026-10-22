@@ -5,7 +5,7 @@
 
 void AddAccountMountsScripts();
 
-void Addmod_account_mountsScripts()
+void Addtw_mod_account_mountsScripts()
 {
     AddAccountMountsScripts();
 }

@@ -1,0 +1,50 @@
+[AccountMounts]
+
+###################################################################################################
+#	Account Mounts module
+###################################################################################################
+
+# Enable the module? (1: true | 0: false)
+
+Account.Mounts.Enable = 1
+
+# Announce the module when the player logs in?
+
+Account.Mounts.Announce = 0
+
+# Excluded Spell IDs (comma-separated, no space). See example below
+# Account.Mounts.ExcludedSpellIDs = 470,578,6777
+
+Account.Mounts.ExcludedSpellIDs = 0
+
+# Limit race specific mounts? (1: true | 0: false)
+# 0 = will allow any race to own other racial-specific mounts.
+# 1 = will enforce the limit.
+
+Account.Mounts.LimitRace = 1
+
+# Limit class specific mounts? (1: true | 0: false)
+# 0 = will allow any class to learn class-specific mounts (e.g. warlock felsteed).
+# 1 = will only learn mounts that the character's class is allowed to use.
+
+Account.Mounts.LimitClass = 1
+
+# Override list of spell IDs that are always treated as epic, regardless of
+# automatic detection. Comma-separated, no spaces.
+# Account.Mounts.EpicSpellIDs = 45047,45048
+
+Account.Mounts.EpicSpellIDs = 0
+
+# Override list of spell IDs that are always treated as normal (Apprentice
+# Riding), regardless of automatic detection. Comma-separated, no spaces.
+# Normally the module detects this automatically from the collection_mount
+# and item_template tables, so this only needs to be set for exceptions.
+# Account.Mounts.NormalSpellIDs = 45049
+
+Account.Mounts.NormalSpellIDs = 0
+
+# Skip Riding-skill gating entirely. When enabled, every shared mount is
+# taught regardless of the character's Riding skill.
+# Account.Mounts.AllowAllMounts = 1
+
+Account.Mounts.AllowAllMounts = 0
